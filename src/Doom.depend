@@ -1,0 +1,3556 @@
+# depslib dependency file v1.0
+1575472652 source:c:\users\antonio\documents\guilherme\prog2\pigwindows_072\src\main.cpp
+	"PIG.h"
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\pig.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	<string.h>
+	<time.h>
+	<vector>
+	<map>
+	"SDL.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL_net.h"
+	"Tipos_PIG.h"
+	"CPoolNumeros.h"
+	"SDL_mixer.h"
+	"CGerenciadorJanelas.h"
+	"CGerenciadorSockets.h"
+	"CAssetLoader.h"
+	"CMapaCaracteres.h"
+	"CVisual.h"
+	"CGerenciadorObjetos.h"
+	"CGerenciadorTimers.h"
+	"CGerenciadorVideos.h"
+	"CGerenciadorAudios.h"
+	"CGerenciadorAnimacoes.h"
+	"CGerenciadorParticulas.h"
+	"CMouse.h"
+	"CGerenciadorControles.h"
+	"CJogo.h"
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195005 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_config.h
+	"SDL_platform.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\begin_code.h
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\close_code.h
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1567195005 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195005 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195005 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195007 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195005 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195005 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195005 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195005 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1567195007 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195005 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195009 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl_image\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195007 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_net.h
+	<stdint.h>
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\tipos_pig.h
+	"direct.h"
+	"unistd.h"
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cpoolnumeros.h
+
+1567195006 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\sdl\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195002 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgerenciadorjanelas.h
+	"CJanela.h"
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cjanela.h
+
+1567195002 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgerenciadorsockets.h
+	"CSocketTCP.h"
+	"CClienteTCP.h"
+	"CServidorTCP.h"
+	"CSocketUDP.h"
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\csockettcp.h
+
+1567195001 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cclientetcp.h
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cservidortcp.h
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\csocketudp.h
+
+1567195001 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cassetloader.h
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cmapacaracteres.h
+	"COffscreenRenderer.h"
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\coffscreenrenderer.h
+	"CPilhaCoordenada.h"
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cpilhacoordenada.h
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cvisual.h
+
+1567195002 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgerenciadorobjetos.h
+	"CObjeto.h"
+
+1575332873 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cobjeto.h
+
+1567195002 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgerenciadortimers.h
+	"CTimer.h"
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\ctimer.h
+	<chrono>
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgerenciadorvideos.h
+	"CVideo.h"
+
+1567195004 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cvideo.h
+	<libavfilter/avfilter.h>
+	<libavformat/avformat.h>
+	<libavcodec/avcodec.h>
+	<libavdevice/avdevice.h>
+	<libavutil/imgutils.h>
+	<libavutil/avstring.h>
+	<libavutil/time.h>
+	<libswresample/swresample.h>
+	<libswscale/swscale.h>
+	"CFilaPacotes.h"
+
+1567195014 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavfilter\avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1567195018 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\attributes.h
+
+1567195018 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195019 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1567195022 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\macros.h
+
+1567195024 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\version.h
+	"macros.h"
+
+1567195018 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\avconfig.h
+
+1567195022 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1567195020 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\error.h
+	<errno.h>
+	<stddef.h>
+
+1567195023 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1567195022 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1567195021 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1567195022 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1567195023 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1567195019 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\buffer.h
+	<stdint.h>
+
+1567195019 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\dict.h
+	<stdint.h>
+	"version.h"
+
+1567195020 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\frame.h
+	<stddef.h>
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195023 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1567195014 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavfilter\version.h
+	"libavutil/version.h"
+
+1567195014 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavformat\avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1567195012 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavcodec\avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/hwcontext.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1567195019 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\cpu.h
+	<stddef.h>
+	"attributes.h"
+
+1567195019 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\channel_layout.h
+	<stdint.h>
+
+1567195020 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\hwcontext.h
+	"buffer.h"
+	"frame.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195013 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavcodec\version.h
+	"libavutil/version.h"
+
+1567195014 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavformat\avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1567195014 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavformat\version.h
+	"libavutil/version.h"
+
+1567195013 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavdevice\avdevice.h
+	"version.h"
+	"libavutil/log.h"
+	"libavutil/opt.h"
+	"libavutil/dict.h"
+	"libavformat/avformat.h"
+
+1567195013 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavdevice\version.h
+	"libavutil/version.h"
+
+1567195022 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1567195021 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1567195023 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195018 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1567195024 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libavutil\time.h
+	<stdint.h>
+
+1567195024 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libswresample\swresample.h
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1567195025 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libswresample\version.h
+	"libavutil/avutil.h"
+
+1567195025 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libswscale\swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1567195025 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\video\libswscale\version.h
+	"libavutil/version.h"
+
+1567195001 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cfilapacotes.h
+
+1567195002 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgerenciadoraudios.h
+	"CAudio.h"
+
+1567195001 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\caudio.h
+
+1567195002 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgerenciadoranimacoes.h
+	"CAnimacao.h"
+
+1567195001 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\canimacao.h
+
+1567195002 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgerenciadorparticulas.h
+	"CGeradorParticulas.h"
+
+1567195002 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgeradorparticulas.h
+	"CParticula.h"
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cparticula.h
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cmouse.h
+
+1567195002 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cgerenciadorcontroles.h
+	"CControle.h"
+
+1567195001 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\ccontrole.h
+
+1567195003 c:\users\antonio\documents\guilherme\prog2\pigwindows_072\include\cjogo.h
+
+1575472654 source:d:\guilherme_pig\src\main.cpp
+	"PIG.h"
+
+1567195006 d:\guilherme_pig\include\pig.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	<string.h>
+	<time.h>
+	<vector>
+	<map>
+	"SDL.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL_net.h"
+	"Tipos_PIG.h"
+	"CPoolNumeros.h"
+	"SDL_mixer.h"
+	"CGerenciadorJanelas.h"
+	"CGerenciadorSockets.h"
+	"CAssetLoader.h"
+	"CMapaCaracteres.h"
+	"CVisual.h"
+	"CGerenciadorObjetos.h"
+	"CGerenciadorTimers.h"
+	"CGerenciadorVideos.h"
+	"CGerenciadorAudios.h"
+	"CGerenciadorAnimacoes.h"
+	"CGerenciadorParticulas.h"
+	"CMouse.h"
+	"CGerenciadorControles.h"
+	"CJogo.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_config.h
+	"SDL_platform.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\begin_code.h
+
+1567195006 d:\guilherme_pig\include\sdl\close_code.h
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 d:\guilherme_pig\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 d:\guilherme_pig\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 d:\guilherme_pig\include\sdl\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\sdl\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 d:\guilherme_pig\include\sdl\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 d:\guilherme_pig\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 d:\guilherme_pig\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 d:\guilherme_pig\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195014 d:\guilherme_pig\include\sdl_image\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_net.h
+	<stdint.h>
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 d:\guilherme_pig\include\tipos_pig.h
+	"direct.h"
+	"unistd.h"
+
+1567195004 d:\guilherme_pig\include\cpoolnumeros.h
+
+1567195008 d:\guilherme_pig\include\sdl\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195004 d:\guilherme_pig\include\cgerenciadorjanelas.h
+	"CJanela.h"
+
+1567195004 d:\guilherme_pig\include\cjanela.h
+
+1567195004 d:\guilherme_pig\include\cgerenciadorsockets.h
+	"CSocketTCP.h"
+	"CClienteTCP.h"
+	"CServidorTCP.h"
+	"CSocketUDP.h"
+
+1567195004 d:\guilherme_pig\include\csockettcp.h
+
+1567195002 d:\guilherme_pig\include\cclientetcp.h
+
+1567195004 d:\guilherme_pig\include\cservidortcp.h
+
+1567195004 d:\guilherme_pig\include\csocketudp.h
+
+1567195002 d:\guilherme_pig\include\cassetloader.h
+
+1567195004 d:\guilherme_pig\include\cmapacaracteres.h
+	"COffscreenRenderer.h"
+
+1567195004 d:\guilherme_pig\include\coffscreenrenderer.h
+	"CPilhaCoordenada.h"
+
+1567195004 d:\guilherme_pig\include\cpilhacoordenada.h
+
+1567195006 d:\guilherme_pig\include\cvisual.h
+
+1567195004 d:\guilherme_pig\include\cgerenciadorobjetos.h
+	"CObjeto.h"
+
+1575332874 d:\guilherme_pig\include\cobjeto.h
+
+1567195004 d:\guilherme_pig\include\cgerenciadortimers.h
+	"CTimer.h"
+
+1567195006 d:\guilherme_pig\include\ctimer.h
+	<chrono>
+
+1567195004 d:\guilherme_pig\include\cgerenciadorvideos.h
+	"CVideo.h"
+
+1567195006 d:\guilherme_pig\include\cvideo.h
+	<libavfilter/avfilter.h>
+	<libavformat/avformat.h>
+	<libavcodec/avcodec.h>
+	<libavdevice/avdevice.h>
+	<libavutil/imgutils.h>
+	<libavutil/avstring.h>
+	<libavutil/time.h>
+	<libswresample/swresample.h>
+	<libswscale/swscale.h>
+	"CFilaPacotes.h"
+
+1567195016 d:\guilherme_pig\include\video\libavfilter\avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1567195020 d:\guilherme_pig\include\video\libavutil\attributes.h
+
+1567195020 d:\guilherme_pig\include\video\libavutil\avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195020 d:\guilherme_pig\include\video\libavutil\common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1567195024 d:\guilherme_pig\include\video\libavutil\macros.h
+
+1567195026 d:\guilherme_pig\include\video\libavutil\version.h
+	"macros.h"
+
+1567195020 d:\guilherme_pig\include\video\libavutil\avconfig.h
+
+1567195024 d:\guilherme_pig\include\video\libavutil\mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1567195022 d:\guilherme_pig\include\video\libavutil\error.h
+	<errno.h>
+	<stddef.h>
+
+1567195024 d:\guilherme_pig\include\video\libavutil\rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1567195024 d:\guilherme_pig\include\video\libavutil\mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1567195022 d:\guilherme_pig\include\video\libavutil\intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1567195024 d:\guilherme_pig\include\video\libavutil\log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1567195024 d:\guilherme_pig\include\video\libavutil\pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1567195020 d:\guilherme_pig\include\video\libavutil\buffer.h
+	<stdint.h>
+
+1567195020 d:\guilherme_pig\include\video\libavutil\dict.h
+	<stdint.h>
+	"version.h"
+
+1567195022 d:\guilherme_pig\include\video\libavutil\frame.h
+	<stddef.h>
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195024 d:\guilherme_pig\include\video\libavutil\samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1567195016 d:\guilherme_pig\include\video\libavfilter\version.h
+	"libavutil/version.h"
+
+1567195016 d:\guilherme_pig\include\video\libavformat\avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1567195014 d:\guilherme_pig\include\video\libavcodec\avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/hwcontext.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1567195020 d:\guilherme_pig\include\video\libavutil\cpu.h
+	<stddef.h>
+	"attributes.h"
+
+1567195020 d:\guilherme_pig\include\video\libavutil\channel_layout.h
+	<stdint.h>
+
+1567195022 d:\guilherme_pig\include\video\libavutil\hwcontext.h
+	"buffer.h"
+	"frame.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195014 d:\guilherme_pig\include\video\libavcodec\version.h
+	"libavutil/version.h"
+
+1567195016 d:\guilherme_pig\include\video\libavformat\avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1567195016 d:\guilherme_pig\include\video\libavformat\version.h
+	"libavutil/version.h"
+
+1567195014 d:\guilherme_pig\include\video\libavdevice\avdevice.h
+	"version.h"
+	"libavutil/log.h"
+	"libavutil/opt.h"
+	"libavutil/dict.h"
+	"libavformat/avformat.h"
+
+1567195014 d:\guilherme_pig\include\video\libavdevice\version.h
+	"libavutil/version.h"
+
+1567195024 d:\guilherme_pig\include\video\libavutil\opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1567195022 d:\guilherme_pig\include\video\libavutil\imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1567195024 d:\guilherme_pig\include\video\libavutil\pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195020 d:\guilherme_pig\include\video\libavutil\avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1567195026 d:\guilherme_pig\include\video\libavutil\time.h
+	<stdint.h>
+
+1567195026 d:\guilherme_pig\include\video\libswresample\swresample.h
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1567195026 d:\guilherme_pig\include\video\libswresample\version.h
+	"libavutil/avutil.h"
+
+1567195026 d:\guilherme_pig\include\video\libswscale\swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1567195026 d:\guilherme_pig\include\video\libswscale\version.h
+	"libavutil/version.h"
+
+1567195002 d:\guilherme_pig\include\cfilapacotes.h
+
+1567195004 d:\guilherme_pig\include\cgerenciadoraudios.h
+	"CAudio.h"
+
+1567195002 d:\guilherme_pig\include\caudio.h
+
+1567195004 d:\guilherme_pig\include\cgerenciadoranimacoes.h
+	"CAnimacao.h"
+
+1567195002 d:\guilherme_pig\include\canimacao.h
+
+1567195004 d:\guilherme_pig\include\cgerenciadorparticulas.h
+	"CGeradorParticulas.h"
+
+1567195004 d:\guilherme_pig\include\cgeradorparticulas.h
+	"CParticula.h"
+
+1567195004 d:\guilherme_pig\include\cparticula.h
+
+1567195004 d:\guilherme_pig\include\cmouse.h
+
+1567195004 d:\guilherme_pig\include\cgerenciadorcontroles.h
+	"CControle.h"
+
+1567195002 d:\guilherme_pig\include\ccontrole.h
+
+1567195004 d:\guilherme_pig\include\cjogo.h
+
+1575477040 source:e:\guilherme_pig\src\main.cpp
+	"PIG.h"
+
+1567195006 e:\guilherme_pig\include\pig.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	<string.h>
+	<time.h>
+	<vector>
+	<map>
+	"SDL.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL_net.h"
+	"Tipos_PIG.h"
+	"CPoolNumeros.h"
+	"SDL_mixer.h"
+	"CGerenciadorJanelas.h"
+	"CGerenciadorSockets.h"
+	"CAssetLoader.h"
+	"CMapaCaracteres.h"
+	"CVisual.h"
+	"CGerenciadorObjetos.h"
+	"CGerenciadorTimers.h"
+	"CGerenciadorVideos.h"
+	"CGerenciadorAudios.h"
+	"CGerenciadorAnimacoes.h"
+	"CGerenciadorParticulas.h"
+	"CMouse.h"
+	"CGerenciadorControles.h"
+	"CJogo.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_config.h
+	"SDL_platform.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\begin_code.h
+
+1567195006 e:\guilherme_pig\include\sdl\close_code.h
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 e:\guilherme_pig\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 e:\guilherme_pig\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 e:\guilherme_pig\include\sdl\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\sdl\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 e:\guilherme_pig\include\sdl\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 e:\guilherme_pig\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 e:\guilherme_pig\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 e:\guilherme_pig\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195014 e:\guilherme_pig\include\sdl_image\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_net.h
+	<stdint.h>
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 e:\guilherme_pig\include\tipos_pig.h
+	"direct.h"
+	"unistd.h"
+
+1567195004 e:\guilherme_pig\include\cpoolnumeros.h
+
+1567195008 e:\guilherme_pig\include\sdl\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195004 e:\guilherme_pig\include\cgerenciadorjanelas.h
+	"CJanela.h"
+
+1567195004 e:\guilherme_pig\include\cjanela.h
+
+1567195004 e:\guilherme_pig\include\cgerenciadorsockets.h
+	"CSocketTCP.h"
+	"CClienteTCP.h"
+	"CServidorTCP.h"
+	"CSocketUDP.h"
+
+1567195004 e:\guilherme_pig\include\csockettcp.h
+
+1567195002 e:\guilherme_pig\include\cclientetcp.h
+
+1567195004 e:\guilherme_pig\include\cservidortcp.h
+
+1567195004 e:\guilherme_pig\include\csocketudp.h
+
+1567195002 e:\guilherme_pig\include\cassetloader.h
+
+1567195004 e:\guilherme_pig\include\cmapacaracteres.h
+	"COffscreenRenderer.h"
+
+1567195004 e:\guilherme_pig\include\coffscreenrenderer.h
+	"CPilhaCoordenada.h"
+
+1567195004 e:\guilherme_pig\include\cpilhacoordenada.h
+
+1567195006 e:\guilherme_pig\include\cvisual.h
+
+1567195004 e:\guilherme_pig\include\cgerenciadorobjetos.h
+	"CObjeto.h"
+
+1575332874 e:\guilherme_pig\include\cobjeto.h
+
+1567195004 e:\guilherme_pig\include\cgerenciadortimers.h
+	"CTimer.h"
+
+1567195006 e:\guilherme_pig\include\ctimer.h
+	<chrono>
+
+1567195004 e:\guilherme_pig\include\cgerenciadorvideos.h
+	"CVideo.h"
+
+1567195006 e:\guilherme_pig\include\cvideo.h
+	<libavfilter/avfilter.h>
+	<libavformat/avformat.h>
+	<libavcodec/avcodec.h>
+	<libavdevice/avdevice.h>
+	<libavutil/imgutils.h>
+	<libavutil/avstring.h>
+	<libavutil/time.h>
+	<libswresample/swresample.h>
+	<libswscale/swscale.h>
+	"CFilaPacotes.h"
+
+1567195016 e:\guilherme_pig\include\video\libavfilter\avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1567195020 e:\guilherme_pig\include\video\libavutil\attributes.h
+
+1567195020 e:\guilherme_pig\include\video\libavutil\avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195020 e:\guilherme_pig\include\video\libavutil\common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1567195024 e:\guilherme_pig\include\video\libavutil\macros.h
+
+1567195026 e:\guilherme_pig\include\video\libavutil\version.h
+	"macros.h"
+
+1567195020 e:\guilherme_pig\include\video\libavutil\avconfig.h
+
+1567195024 e:\guilherme_pig\include\video\libavutil\mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1567195022 e:\guilherme_pig\include\video\libavutil\error.h
+	<errno.h>
+	<stddef.h>
+
+1567195024 e:\guilherme_pig\include\video\libavutil\rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1567195024 e:\guilherme_pig\include\video\libavutil\mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1567195022 e:\guilherme_pig\include\video\libavutil\intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1567195024 e:\guilherme_pig\include\video\libavutil\log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1567195024 e:\guilherme_pig\include\video\libavutil\pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1567195020 e:\guilherme_pig\include\video\libavutil\buffer.h
+	<stdint.h>
+
+1567195020 e:\guilherme_pig\include\video\libavutil\dict.h
+	<stdint.h>
+	"version.h"
+
+1567195022 e:\guilherme_pig\include\video\libavutil\frame.h
+	<stddef.h>
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195024 e:\guilherme_pig\include\video\libavutil\samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1567195016 e:\guilherme_pig\include\video\libavfilter\version.h
+	"libavutil/version.h"
+
+1567195016 e:\guilherme_pig\include\video\libavformat\avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1567195014 e:\guilherme_pig\include\video\libavcodec\avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/hwcontext.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1567195020 e:\guilherme_pig\include\video\libavutil\cpu.h
+	<stddef.h>
+	"attributes.h"
+
+1567195020 e:\guilherme_pig\include\video\libavutil\channel_layout.h
+	<stdint.h>
+
+1567195022 e:\guilherme_pig\include\video\libavutil\hwcontext.h
+	"buffer.h"
+	"frame.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195014 e:\guilherme_pig\include\video\libavcodec\version.h
+	"libavutil/version.h"
+
+1567195016 e:\guilherme_pig\include\video\libavformat\avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1567195016 e:\guilherme_pig\include\video\libavformat\version.h
+	"libavutil/version.h"
+
+1567195014 e:\guilherme_pig\include\video\libavdevice\avdevice.h
+	"version.h"
+	"libavutil/log.h"
+	"libavutil/opt.h"
+	"libavutil/dict.h"
+	"libavformat/avformat.h"
+
+1567195014 e:\guilherme_pig\include\video\libavdevice\version.h
+	"libavutil/version.h"
+
+1567195024 e:\guilherme_pig\include\video\libavutil\opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1567195022 e:\guilherme_pig\include\video\libavutil\imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1567195024 e:\guilherme_pig\include\video\libavutil\pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195020 e:\guilherme_pig\include\video\libavutil\avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1567195026 e:\guilherme_pig\include\video\libavutil\time.h
+	<stdint.h>
+
+1567195026 e:\guilherme_pig\include\video\libswresample\swresample.h
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1567195026 e:\guilherme_pig\include\video\libswresample\version.h
+	"libavutil/avutil.h"
+
+1567195026 e:\guilherme_pig\include\video\libswscale\swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1567195026 e:\guilherme_pig\include\video\libswscale\version.h
+	"libavutil/version.h"
+
+1567195002 e:\guilherme_pig\include\cfilapacotes.h
+
+1567195004 e:\guilherme_pig\include\cgerenciadoraudios.h
+	"CAudio.h"
+
+1567195002 e:\guilherme_pig\include\caudio.h
+
+1567195004 e:\guilherme_pig\include\cgerenciadoranimacoes.h
+	"CAnimacao.h"
+
+1567195002 e:\guilherme_pig\include\canimacao.h
+
+1567195004 e:\guilherme_pig\include\cgerenciadorparticulas.h
+	"CGeradorParticulas.h"
+
+1567195004 e:\guilherme_pig\include\cgeradorparticulas.h
+	"CParticula.h"
+
+1567195004 e:\guilherme_pig\include\cparticula.h
+
+1567195004 e:\guilherme_pig\include\cmouse.h
+
+1567195004 e:\guilherme_pig\include\cgerenciadorcontroles.h
+	"CControle.h"
+
+1567195002 e:\guilherme_pig\include\ccontrole.h
+
+1567195004 e:\guilherme_pig\include\cjogo.h
+
+1575477040 source:c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\src\main.cpp
+	"PIG.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\pig.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	<string.h>
+	<time.h>
+	<vector>
+	<map>
+	"SDL.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL_net.h"
+	"Tipos_PIG.h"
+	"CPoolNumeros.h"
+	"SDL_mixer.h"
+	"CGerenciadorJanelas.h"
+	"CGerenciadorSockets.h"
+	"CAssetLoader.h"
+	"CMapaCaracteres.h"
+	"CVisual.h"
+	"CGerenciadorObjetos.h"
+	"CGerenciadorTimers.h"
+	"CGerenciadorVideos.h"
+	"CGerenciadorAudios.h"
+	"CGerenciadorAnimacoes.h"
+	"CGerenciadorParticulas.h"
+	"CMouse.h"
+	"CGerenciadorControles.h"
+	"CJogo.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_config.h
+	"SDL_platform.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\begin_code.h
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\close_code.h
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195014 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl_image\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_net.h
+	<stdint.h>
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\tipos_pig.h
+	"direct.h"
+	"unistd.h"
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cpoolnumeros.h
+
+1567195008 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\sdl\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgerenciadorjanelas.h
+	"CJanela.h"
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cjanela.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgerenciadorsockets.h
+	"CSocketTCP.h"
+	"CClienteTCP.h"
+	"CServidorTCP.h"
+	"CSocketUDP.h"
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\csockettcp.h
+
+1567195002 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cclientetcp.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cservidortcp.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\csocketudp.h
+
+1567195002 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cassetloader.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cmapacaracteres.h
+	"COffscreenRenderer.h"
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\coffscreenrenderer.h
+	"CPilhaCoordenada.h"
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cpilhacoordenada.h
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cvisual.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgerenciadorobjetos.h
+	"CObjeto.h"
+
+1575332874 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cobjeto.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgerenciadortimers.h
+	"CTimer.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\ctimer.h
+	<chrono>
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgerenciadorvideos.h
+	"CVideo.h"
+
+1567195006 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cvideo.h
+	<libavfilter/avfilter.h>
+	<libavformat/avformat.h>
+	<libavcodec/avcodec.h>
+	<libavdevice/avdevice.h>
+	<libavutil/imgutils.h>
+	<libavutil/avstring.h>
+	<libavutil/time.h>
+	<libswresample/swresample.h>
+	<libswscale/swscale.h>
+	"CFilaPacotes.h"
+
+1567195016 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavfilter\avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1567195020 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\attributes.h
+
+1567195020 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195020 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1567195024 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\macros.h
+
+1567195026 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\version.h
+	"macros.h"
+
+1567195020 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\avconfig.h
+
+1567195024 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1567195022 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\error.h
+	<errno.h>
+	<stddef.h>
+
+1567195024 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1567195024 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1567195022 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1567195024 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1567195024 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1567195020 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\buffer.h
+	<stdint.h>
+
+1567195020 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\dict.h
+	<stdint.h>
+	"version.h"
+
+1567195022 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\frame.h
+	<stddef.h>
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195024 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1567195016 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavfilter\version.h
+	"libavutil/version.h"
+
+1567195016 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavformat\avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1567195014 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavcodec\avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/hwcontext.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1567195020 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\cpu.h
+	<stddef.h>
+	"attributes.h"
+
+1567195020 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\channel_layout.h
+	<stdint.h>
+
+1567195022 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\hwcontext.h
+	"buffer.h"
+	"frame.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195014 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavcodec\version.h
+	"libavutil/version.h"
+
+1567195016 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavformat\avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1567195016 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavformat\version.h
+	"libavutil/version.h"
+
+1567195014 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavdevice\avdevice.h
+	"version.h"
+	"libavutil/log.h"
+	"libavutil/opt.h"
+	"libavutil/dict.h"
+	"libavformat/avformat.h"
+
+1567195014 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavdevice\version.h
+	"libavutil/version.h"
+
+1567195024 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1567195022 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1567195024 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195020 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1567195026 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libavutil\time.h
+	<stdint.h>
+
+1567195026 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libswresample\swresample.h
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1567195026 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libswresample\version.h
+	"libavutil/avutil.h"
+
+1567195026 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libswscale\swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1567195026 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\video\libswscale\version.h
+	"libavutil/version.h"
+
+1567195002 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cfilapacotes.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgerenciadoraudios.h
+	"CAudio.h"
+
+1567195002 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\caudio.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgerenciadoranimacoes.h
+	"CAnimacao.h"
+
+1567195002 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\canimacao.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgerenciadorparticulas.h
+	"CGeradorParticulas.h"
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgeradorparticulas.h
+	"CParticula.h"
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cparticula.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cmouse.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cgerenciadorcontroles.h
+	"CControle.h"
+
+1567195002 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\ccontrole.h
+
+1567195004 c:\users\antonio\documents\guilherme\2º semestre\guilherme_pig\include\cjogo.h
+
+1575477040 source:c:\users\danie\downloads\guilherme_pig\guilherme_pig\src\main.cpp
+	"PIG.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\pig.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	<string.h>
+	<time.h>
+	<vector>
+	<map>
+	"SDL.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL_net.h"
+	"Tipos_PIG.h"
+	"CPoolNumeros.h"
+	"SDL_mixer.h"
+	"CGerenciadorJanelas.h"
+	"CGerenciadorSockets.h"
+	"CAssetLoader.h"
+	"CMapaCaracteres.h"
+	"CVisual.h"
+	"CGerenciadorObjetos.h"
+	"CGerenciadorTimers.h"
+	"CGerenciadorVideos.h"
+	"CGerenciadorAudios.h"
+	"CGerenciadorAnimacoes.h"
+	"CGerenciadorParticulas.h"
+	"CMouse.h"
+	"CGerenciadorControles.h"
+	"CJogo.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_config.h
+	"SDL_platform.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\begin_code.h
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\close_code.h
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195010 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195012 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195014 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl_image\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_net.h
+	<stdint.h>
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\tipos_pig.h
+	"direct.h"
+	"unistd.h"
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cpoolnumeros.h
+
+1567195008 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\sdl\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgerenciadorjanelas.h
+	"CJanela.h"
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cjanela.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgerenciadorsockets.h
+	"CSocketTCP.h"
+	"CClienteTCP.h"
+	"CServidorTCP.h"
+	"CSocketUDP.h"
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\csockettcp.h
+
+1567195002 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cclientetcp.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cservidortcp.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\csocketudp.h
+
+1567195002 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cassetloader.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cmapacaracteres.h
+	"COffscreenRenderer.h"
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\coffscreenrenderer.h
+	"CPilhaCoordenada.h"
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cpilhacoordenada.h
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cvisual.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgerenciadorobjetos.h
+	"CObjeto.h"
+
+1575332874 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cobjeto.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgerenciadortimers.h
+	"CTimer.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\ctimer.h
+	<chrono>
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgerenciadorvideos.h
+	"CVideo.h"
+
+1567195006 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cvideo.h
+	<libavfilter/avfilter.h>
+	<libavformat/avformat.h>
+	<libavcodec/avcodec.h>
+	<libavdevice/avdevice.h>
+	<libavutil/imgutils.h>
+	<libavutil/avstring.h>
+	<libavutil/time.h>
+	<libswresample/swresample.h>
+	<libswscale/swscale.h>
+	"CFilaPacotes.h"
+
+1567195016 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavfilter\avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1567195020 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\attributes.h
+
+1567195020 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195020 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1567195024 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\macros.h
+
+1567195026 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\version.h
+	"macros.h"
+
+1567195020 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\avconfig.h
+
+1567195024 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1567195022 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\error.h
+	<errno.h>
+	<stddef.h>
+
+1567195024 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1567195024 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1567195022 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1567195024 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1567195024 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1567195020 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\buffer.h
+	<stdint.h>
+
+1567195020 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\dict.h
+	<stdint.h>
+	"version.h"
+
+1567195022 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\frame.h
+	<stddef.h>
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195024 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1567195016 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavfilter\version.h
+	"libavutil/version.h"
+
+1567195016 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavformat\avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1567195014 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavcodec\avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/hwcontext.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1567195020 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\cpu.h
+	<stddef.h>
+	"attributes.h"
+
+1567195020 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\channel_layout.h
+	<stdint.h>
+
+1567195022 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\hwcontext.h
+	"buffer.h"
+	"frame.h"
+	"log.h"
+	"pixfmt.h"
+
+1567195014 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavcodec\version.h
+	"libavutil/version.h"
+
+1567195016 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavformat\avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1567195016 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavformat\version.h
+	"libavutil/version.h"
+
+1567195014 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavdevice\avdevice.h
+	"version.h"
+	"libavutil/log.h"
+	"libavutil/opt.h"
+	"libavutil/dict.h"
+	"libavformat/avformat.h"
+
+1567195014 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavdevice\version.h
+	"libavutil/version.h"
+
+1567195024 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1567195022 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1567195024 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1567195020 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1567195026 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libavutil\time.h
+	<stdint.h>
+
+1567195026 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libswresample\swresample.h
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1567195026 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libswresample\version.h
+	"libavutil/avutil.h"
+
+1567195026 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libswscale\swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1567195026 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\video\libswscale\version.h
+	"libavutil/version.h"
+
+1567195002 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cfilapacotes.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgerenciadoraudios.h
+	"CAudio.h"
+
+1567195002 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\caudio.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgerenciadoranimacoes.h
+	"CAnimacao.h"
+
+1567195002 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\canimacao.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgerenciadorparticulas.h
+	"CGeradorParticulas.h"
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgeradorparticulas.h
+	"CParticula.h"
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cparticula.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cmouse.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cgerenciadorcontroles.h
+	"CControle.h"
+
+1567195002 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\ccontrole.h
+
+1567195004 c:\users\danie\downloads\guilherme_pig\guilherme_pig\include\cjogo.h
+
